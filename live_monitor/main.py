@@ -11,7 +11,7 @@ import time
 import queue
 import threading
 import glob
-from watchdog.observers import PollingObserver
+from watchdog.observers.polling import PollingObserver
 from watchdog.events import FileSystemEventHandler
 
 import state
